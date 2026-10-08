@@ -1,0 +1,4 @@
+{
+  "pack": "node",
+  "test": "npm ci && npx mocha packages/core/test/router/router-response-controller.spec.ts packages/core/test/router/sse-stream.spec.ts"
+}
