@@ -1,0 +1,4 @@
+{
+  "pack": "node",
+  "test": "mkdir -p .meridian-reports && npm ci --legacy-peer-deps && npx vitest run --reporter=default --reporter=junit --outputFile.junit=.meridian-reports/junit.xml packages/core/test/router/router-response-controller.spec.ts packages/core/test/router/sse-stream.spec.ts"
+}
